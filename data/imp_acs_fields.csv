@@ -1,0 +1,92 @@
+fid,fname,tname
+B01001_001E,total,sex by age
+B02001_002E,total__white alone,race
+B02001_003E,total__black or african american alone,race
+B06001_002E,total__under 5 years,place of birth by age in the united states
+B08301_001E,total,means of transportation to work
+B08301_010E,total__public transportation (excluding taxicab),means of transportation to work
+B08301_018E,total__bicycle,means of transportation to work
+B08301_019E,total__walked,means of transportation to work
+B08301_021E,total__worked from home,means of transportation to work
+B11012_003E,total__married-couple household__with children of the householder under 18 years,households by type
+B11012_006E,total__cohabiting couple household__with children of the householder under 18 years,households by type
+B11012_010E,"total__female householder, no spouse or partner present__with children of the householder under 18 years",households by type
+B11012_015E,"total__male householder, no spouse or partner present__with children of the householder under 18 years",households by type
+B15003_001E,total,educational attainment for the population 25+ yr
+B15003_018E,total__ged or alternative credential,educational attainment for the population 25+ yr
+B15003_019E,"total__some college, less than 1 year",educational attainment for the population 25+ yr
+B15003_020E,"total__some college, 1 or more years, no degree",educational attainment for the population 25+ yr
+B15003_021E,total__associate's degree,educational attainment for the population 25+ yr
+B15003_022E,total__bachelor's degree,educational attainment for the population 25+ yr
+B15003_023E,total__master's degree,educational attainment for the population 25+ yr
+B15003_024E,total__professional school degree,educational attainment for the population 25+ yr
+B15003_025E,total__doctorate degree,educational attainment for the population 25+ yr
+B16004_001E,total,age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_002E,total__5 to 17 years,age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_007E,"total__5 to 17 years__speak spanish__speak english ""not well""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_008E,"total__5 to 17 years__speak spanish__speak english ""not at all""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_012E,"total__5 to 17 years__speak other indo-european languages__speak english ""not well""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_013E,"total__5 to 17 years__speak other indo-european languages__speak english ""not at all""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_017E,"total__5 to 17 years__speak asian and pacific island languages__speak english ""not well""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_018E,"total__5 to 17 years__speak asian and pacific island languages__speak english ""not at all""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_022E,"total__5 to 17 years__speak other languages__speak english ""not well""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_023E,"total__5 to 17 years__speak other languages__speak english ""not at all""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_029E,"total__18 to 64 years__speak spanish__speak english ""not well""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_030E,"total__18 to 64 years__speak spanish__speak english ""not at all""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_034E,"total__18 to 64 years__speak other indo-european languages__speak english ""not well""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_035E,"total__18 to 64 years__speak other indo-european languages__speak english ""not at all""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_039E,"total__18 to 64 years__speak asian and pacific island languages__speak english ""not well""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_040E,"total__18 to 64 years__speak asian and pacific island languages__speak english ""not at all""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_044E,"total__18 to 64 years__speak other languages__speak english ""not well""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_045E,"total__18 to 64 years__speak other languages__speak english ""not at all""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_051E,"total__65 years and over__speak spanish__speak english ""not well""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_052E,"total__65 years and over__speak spanish__speak english ""not at all""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_056E,"total__65 years and over__speak other indo-european languages__speak english ""not well""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_057E,"total__65 years and over__speak other indo-european languages__speak english ""not at all""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_061E,"total__65 years and over__speak asian and pacific island languages__speak english ""not well""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_062E,"total__65 years and over__speak asian and pacific island languages__speak english ""not at all""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_066E,"total__65 years and over__speak other languages__speak english ""not well""",age by language spoken at home by ability to speak english for the population 5+ yr
+B16004_067E,"total__65 years and over__speak other languages__speak english ""not at all""",age by language spoken at home by ability to speak english for the population 5+ yr
+B17021_001E,total,poverty status of individuals last year by living arrangement
+B17021_002E,total__income in the past 12 months below poverty level,poverty status of individuals last year by living arrangement
+B17026_001E,total,ratio of income to poverty level of families last year
+B17026_002E,total__under .50,ratio of income to poverty level of families last year
+B17026_003E,total__.50 to .74,ratio of income to poverty level of families last year
+B17026_004E,total__.75 to .99,ratio of income to poverty level of families last year
+B17026_005E,total__1.00 to 1.24,ratio of income to poverty level of families last year
+B17026_006E,total__1.25 to 1.49,ratio of income to poverty level of families last year
+B17026_007E,total__1.50 to 1.74,ratio of income to poverty level of families last year
+B17026_008E,total__1.75 to 1.84,ratio of income to poverty level of families last year
+B17026_009E,total__1.85 to 1.99,ratio of income to poverty level of families last year
+B18135_001E,total,age by disability status by health insurance coverage status
+B18135_002E,total__under 19 years,age by disability status by health insurance coverage status
+B18135_013E,total__19 to 64 years,age by disability status by health insurance coverage status
+B18135_025E,total__65 years and over__with a disability,age by disability status by health insurance coverage status
+B19001_001E,total,household income last year (in IA$)
+B19301_001E,per capita income in the past 12 months (in 2021 inflation-adjusted dollars),per capita income last year (in IA$)
+B22010_001E,total,receipt of food stamps/snap last year by disability status for households
+B22010_002E,total__household received food stamps/snap in the past 12 months,receipt of food stamps/snap last year by disability status for households
+B22010_003E,total__household received food stamps/snap in the past 12 months__households with 1 or more persons with a disability,receipt of food stamps/snap last year by disability status for households
+B22010_006E,total__household did not receive food stamps/snap in the past 12 months__households with 1 or more persons with a disability,receipt of food stamps/snap last year by disability status for households
+B23025_002E,total__in labor force,employment status for the population 16+ yr
+B23025_005E,total__in labor force__civilian labor force__unemployed,employment status for the population 16+ yr
+B25014_001E,total,tenure by occupants per room
+B25014_005E,total__owner occupied__1.01 to 1.50 occupants per room,tenure by occupants per room
+B25014_006E,total__owner occupied__1.51 to 2.00 occupants per room,tenure by occupants per room
+B25014_007E,total__owner occupied__2.01 or more occupants per room,tenure by occupants per room
+B25014_011E,total__renter occupied__1.01 to 1.50 occupants per room,tenure by occupants per room
+B25014_012E,total__renter occupied__1.51 to 2.00 occupants per room,tenure by occupants per room
+B25014_013E,total__renter occupied__2.01 or more occupants per room,tenure by occupants per room
+B25033_001E,total,total population in occupied housing units by tenure by units in structure
+B25033_006E,total__owner occupied__mobile home,total population in occupied housing units by tenure by units in structure
+B25033_008E,total__renter occupied,total population in occupied housing units by tenure by units in structure
+B25033_013E,"total__renter occupied__boat, rv, van, etc.",total population in occupied housing units by tenure by units in structure
+B25044_001E,total,tenure by vehicles available
+B25044_003E,total__owner occupied__no vehicle available,tenure by vehicles available
+B25044_010E,total__renter occupied__no vehicle available,tenure by vehicles available
+B25046_001E,aggregate number of vehicles available,aggregate number of vehicles available by tenure
+B27010_001E,total,types of health insurance coverage by age
+B27010_017E,total__under 19 years__no health insurance coverage,types of health insurance coverage by age
+B27010_033E,total__19 to 34 years__no health insurance coverage,types of health insurance coverage by age
+B27010_050E,total__35 to 64 years__no health insurance coverage,types of health insurance coverage by age
+B27010_066E,total__65 years and over__no health insurance coverage,types of health insurance coverage by age

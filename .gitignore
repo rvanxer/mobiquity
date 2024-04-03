@@ -1,2 +1,4 @@
-data
+data/access
+data/ses
+data/zones
 mobiquity/__pycache__
