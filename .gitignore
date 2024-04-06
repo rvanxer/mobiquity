@@ -1,4 +1,7 @@
 data/access
+data/equity_atlas
+data/osm
 data/ses
 data/zones
 mobiquity/__pycache__
+notebooks/*/fig
