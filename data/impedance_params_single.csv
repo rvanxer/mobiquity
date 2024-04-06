@@ -1,0 +1,129 @@
+target,func,factor,level,variable,value
+Distance,Base exponential,Overall,,β1,0.10377327827141082
+Distance,Base exponential,Mode,Drive,β1,0.09368928748045141
+Distance,Base exponential,Mode,Transit,β1,0.06886442411207842
+Distance,Base exponential,Mode,Walk,β1,1.079605819816491
+Distance,Base exponential,Mode,Bike,β1,0.27620348783934706
+Distance,Base exponential,Purpose,Work,β1,0.05460569159302561
+Distance,Base exponential,Purpose,Non-work,β1,0.12006809529477856
+Distance,Base exponential,Urbanity,U → U,β1,0.22213315918893614
+Distance,Base exponential,Urbanity,S → S,β1,0.1317655047301321
+Distance,Base exponential,Urbanity,R → R,β1,0.10048897605998437
+Distance,Base exponential,Urbanity,U ↔ S,β1,0.08479786847363002
+Distance,Base exponential,Urbanity,S ↔ R,β1,0.04799320546796633
+Distance,Base exponential,Urbanity,R ↔ U,β1,0.037940439120772454
+Distance,Base exponential,SES,Low,β1,0.17688888546790069
+Distance,Base exponential,SES,Mid,β1,0.12139683244064117
+Distance,Base exponential,SES,High,β1,0.09043621908444896
+Time,Base exponential,Overall,,β1,0.0539183045989108
+Time,Base exponential,Mode,Drive,β1,0.05481886798240407
+Time,Base exponential,Mode,Transit,β1,0.019986796926782475
+Time,Base exponential,Mode,Walk,β1,0.05994559194856859
+Time,Base exponential,Mode,Bike,β1,0.045773546415163784
+Time,Base exponential,Purpose,Work,β1,0.03816160866971189
+Time,Base exponential,Purpose,Non-work,β1,0.05769432599832444
+Time,Base exponential,Urbanity,U → U,β1,0.06325143330256949
+Time,Base exponential,Urbanity,S → S,β1,0.06202331855346494
+Time,Base exponential,Urbanity,R → R,β1,0.05954722092697347
+Time,Base exponential,Urbanity,U ↔ S,β1,0.04732170497112821
+Time,Base exponential,Urbanity,S ↔ R,β1,0.03879399222130186
+Time,Base exponential,Urbanity,R ↔ U,β1,0.03207669331011609
+Time,Base exponential,SES,Low,β1,0.04636904927293476
+Time,Base exponential,SES,Mid,β1,0.05559627830588451
+Time,Base exponential,SES,High,β1,0.052876504192542056
+Distance,Power exponential,Overall,,β1,0.18636401260918578
+Distance,Power exponential,Mode,Drive,β1,0.1464034391397379
+Distance,Power exponential,Mode,Transit,β1,0.0953424612745351
+Distance,Power exponential,Mode,Walk,β1,1.1736527055859955
+Distance,Power exponential,Mode,Bike,β1,0.3327964257982789
+Distance,Power exponential,Purpose,Work,β1,0.05144208268536156
+Distance,Power exponential,Purpose,Non-work,β1,0.20967240813389437
+Distance,Power exponential,Urbanity,U → U,β1,0.37435954615175937
+Distance,Power exponential,Urbanity,S → S,β1,0.22226616327234255
+Distance,Power exponential,Urbanity,R → R,β1,0.20148773974775613
+Distance,Power exponential,Urbanity,U ↔ S,β1,0.0938081380469134
+Distance,Power exponential,Urbanity,S ↔ R,β1,0.029595790671970712
+Distance,Power exponential,Urbanity,R ↔ U,β1,0.015333579779729526
+Distance,Power exponential,SES,Low,β1,0.31720339741293335
+Distance,Power exponential,SES,Mid,β1,0.21123215303775147
+Distance,Power exponential,SES,High,β1,0.1595002584469606
+Time,Power exponential,Overall,,β1,0.02268774060606222
+Time,Power exponential,Mode,Drive,β1,0.019468004746359884
+Time,Power exponential,Mode,Transit,β1,0.0013334381907123033
+Time,Power exponential,Mode,Walk,β1,0.058198614743570215
+Time,Power exponential,Mode,Bike,β1,0.023315949279780958
+Time,Power exponential,Purpose,Work,β1,0.008365362451372416
+Time,Power exponential,Purpose,Non-work,β1,0.023667772203367406
+Time,Power exponential,Urbanity,U → U,β1,0.03346172950621266
+Time,Power exponential,Urbanity,S → S,β1,0.027284900884816506
+Time,Power exponential,Urbanity,R → R,β1,0.03841030767637826
+Time,Power exponential,Urbanity,U ↔ S,β1,0.010374738575782203
+Time,Power exponential,Urbanity,S ↔ R,β1,0.005854949844953921
+Time,Power exponential,Urbanity,R ↔ U,β1,0.002706017783047711
+Time,Power exponential,SES,Low,β1,0.025234170592422014
+Time,Power exponential,SES,Mid,β1,0.022560332473590426
+Time,Power exponential,SES,High,β1,0.022456662021703842
+Distance,Base exponential,Overall,,β2,
+Distance,Base exponential,Mode,Drive,β2,
+Distance,Base exponential,Mode,Transit,β2,
+Distance,Base exponential,Mode,Walk,β2,
+Distance,Base exponential,Mode,Bike,β2,
+Distance,Base exponential,Purpose,Work,β2,
+Distance,Base exponential,Purpose,Non-work,β2,
+Distance,Base exponential,Urbanity,U → U,β2,
+Distance,Base exponential,Urbanity,S → S,β2,
+Distance,Base exponential,Urbanity,R → R,β2,
+Distance,Base exponential,Urbanity,U ↔ S,β2,
+Distance,Base exponential,Urbanity,S ↔ R,β2,
+Distance,Base exponential,Urbanity,R ↔ U,β2,
+Distance,Base exponential,SES,Low,β2,
+Distance,Base exponential,SES,Mid,β2,
+Distance,Base exponential,SES,High,β2,
+Time,Base exponential,Overall,,β2,
+Time,Base exponential,Mode,Drive,β2,
+Time,Base exponential,Mode,Transit,β2,
+Time,Base exponential,Mode,Walk,β2,
+Time,Base exponential,Mode,Bike,β2,
+Time,Base exponential,Purpose,Work,β2,
+Time,Base exponential,Purpose,Non-work,β2,
+Time,Base exponential,Urbanity,U → U,β2,
+Time,Base exponential,Urbanity,S → S,β2,
+Time,Base exponential,Urbanity,R → R,β2,
+Time,Base exponential,Urbanity,U ↔ S,β2,
+Time,Base exponential,Urbanity,S ↔ R,β2,
+Time,Base exponential,Urbanity,R ↔ U,β2,
+Time,Base exponential,SES,Low,β2,
+Time,Base exponential,SES,Mid,β2,
+Time,Base exponential,SES,High,β2,
+Distance,Power exponential,Overall,,β2,0.7648210089594932
+Distance,Power exponential,Mode,Drive,β2,0.8265830486786953
+Distance,Power exponential,Mode,Transit,β2,0.8871259075694705
+Distance,Power exponential,Mode,Walk,β2,0.7492124193322164
+Distance,Power exponential,Mode,Bike,β2,0.8711096026246835
+Distance,Power exponential,Purpose,Work,β2,1.0190251718480552
+Distance,Power exponential,Purpose,Non-work,β2,0.7608327833250839
+Distance,Power exponential,Urbanity,U → U,β2,0.6924842714885885
+Distance,Power exponential,Urbanity,S → S,β2,0.765208265294555
+Distance,Power exponential,Urbanity,R → R,β2,0.7292090986853985
+Distance,Power exponential,Urbanity,U ↔ S,β2,0.9616891251868643
+Distance,Power exponential,Urbanity,S ↔ R,β2,1.1505048183310989
+Distance,Power exponential,Urbanity,R ↔ U,β2,1.264268442055928
+Distance,Power exponential,SES,Low,β2,0.7025819684093841
+Distance,Power exponential,SES,Mid,β2,0.7617505578627973
+Distance,Power exponential,SES,High,β2,0.7845039457242059
+Time,Power exponential,Overall,,β2,1.2822188265088326
+Time,Power exponential,Mode,Drive,β2,1.339882136179026
+Time,Power exponential,Mode,Transit,β2,1.678955278111353
+Time,Power exponential,Mode,Walk,β2,1.009812511876092
+Time,Power exponential,Mode,Bike,β2,1.2090776946833766
+Time,Power exponential,Purpose,Work,β2,1.4436852604259143
+Time,Power exponential,Purpose,Non-work,β2,1.2977931835914942
+Time,Power exponential,Urbanity,U → U,β2,1.2201360079700796
+Time,Power exponential,Urbanity,S → S,β2,1.2809755963341942
+Time,Power exponential,Urbanity,R → R,β2,1.1464354368674246
+Time,Power exponential,Urbanity,U ↔ S,β2,1.4790495060767497
+Time,Power exponential,Urbanity,S ↔ R,β2,1.5590269817589937
+Time,Power exponential,Urbanity,R ↔ U,β2,1.6955372417110302
+Time,Power exponential,SES,Low,β2,1.1889893531016997
+Time,Power exponential,SES,Mid,β2,1.2977176812854923
+Time,Power exponential,SES,High,β2,1.276876537403794
