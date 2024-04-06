@@ -19,6 +19,18 @@ import pandas as pd
 from pyarrow.parquet import read_schema
 
 
+# Unit conversion factors
+M2FT = 3.28084 # meter to feet
+FT2M = 1 / M2FT
+MI2M = 1609.34  # mile to meter
+M2MI = 1 / MI2M
+MI2KM = 1.60934  # mile to kilometer
+KM2MI = 1 / MI2KM
+SQMI2SQM = 2.59e6  # sq. mile to sq. meter
+SQM2SQMI = 1 / SQMI2SQM # sq. m. to sq. mi.
+MPS2MPH = 2.2369363 # meters per second to miles per hr
+MPH2MPS = 1 / MPS2MPH # miles per hr to meters per second
+
 # default plot settings
 MPL_RCPARAMS = {
     'axes.edgecolor': 'k',
@@ -121,6 +133,7 @@ def load(path, geom=True, **kwargs):
     df : pd.DataFrame
         Loaded data frame.
     """
+    path = Path(path)
     ext = path.suffix[1:]
     if ext == 'csv':
         df = pd.read_csv(path, **kwargs)
@@ -193,8 +206,8 @@ def plot(ax=None, fig=None, size=None, dpi=None, title=None, xlab=None,
          ylab=None, xlim=None, ylim=None, titlesize=None, xlabsize=None,
          ylabsize=None, xeng=False, yeng=False, xticks=None, yticks=None,
          xticks_rotate=None, yticks_rotate=None, xlog=False, ylog=False,
-         axoff=False, gridcolor=None, bordercolor=None,
-         save=False, path=None):
+         xminor=True, yminor=True, axoff=False, gridcolor=None,
+         bordercolor=None, save=False, path=None):
     """Custom handler for matplotlib plotting options.
 
     Parameters
@@ -221,6 +234,8 @@ def plot(ax=None, fig=None, size=None, dpi=None, title=None, xlab=None,
         Extent of rotation of xticks/yticks (in degrees).
     xlog, ylog : bool
         Whether x/y-axis is to be displayed on log_10 scale.
+    xminor, yminor : bool
+        Whether show x.y-axis ticks.
     axoff : bool
         Whether turn off the axis boundary.
     gridcolor : str
@@ -262,6 +277,14 @@ def plot(ax=None, fig=None, size=None, dpi=None, title=None, xlab=None,
         ax.set_xticklabels(ax.get_xticklabels(), rotation=xticks_rotate)
     if yticks_rotate:
         ax.set_yticklabels(ax.get_yticklabels(), rotation=yticks_rotate)
+    if xminor:
+        ax.tick_params(which='minor', bottom=True)
+    else:
+        ax.tick_params(which='minor', bottom=False)
+    if yminor:
+        ax.tick_params(which='minor', left=True)
+    else:
+        ax.tick_params(which='minor', left=False)
     if axoff:
         ax.axis('off')
     if gridcolor:
@@ -276,23 +299,24 @@ def plot(ax=None, fig=None, size=None, dpi=None, title=None, xlab=None,
     return ax
 
 
-def maplot(df: gpd.GeoDataFrame, col: str,
-           ax=None, size=(6, 6), dpi=150, title=None,
+def maplot(df: gpd.GeoDataFrame, col=None, ax=None,
+           size=(6, 6), dpi=150, title=None,
            cmap='rainbow', vmin=None, vmax=None,
            shrink=0.5, label=None, vert=True, scalebar=0.2,
-           basemap=ctx.providers.OpenStreetMap.Mapnik):
+           basemap=ctx.providers.OpenStreetMap.Mapnik, **kwargs):
     """Custom map plot for geopandas dataframes."""
     ax = ax or plot(size=size, dpi=dpi, title=title)
     orient = 'vertical' if vert else 'horizontal'
     kwds = dict(shrink=shrink, label=label, orientation=orient)
     df.plot(col, ax=ax, vmin=vmin, vmax=vmax, cmap=cmap,
-            legend=True, legend_kwds=kwds)
+            legend=True, legend_kwds=kwds, **kwargs)
     if scalebar is not None:
         ax.add_artist(ScaleBar(scalebar))
     if basemap is not None:
         ctx.add_basemap(ax=ax, crs=df.crs, source=basemap)
     ax.set_xticks([])
     ax.set_yticks([])
+    return ax
 
 
 def imsave(title=None, fig=None, ax=None, dpi=300,
@@ -385,6 +409,4 @@ def disp(x, top=1, mem=True, vert=False):
     #     else:
     #         x.show(top, vertical=bool(vert))
     return x
-
-
 

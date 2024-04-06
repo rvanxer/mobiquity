@@ -43,18 +43,6 @@ F16, F32, F64 = np.float16, np.float32, np.float64
 SEED = 1234 # common random state initializer for all main random operations
 EPS = 1e-6 # small value to add to prevent DivisionByZeroError
 
-# Unit conversion factors
-M2FT = 3.28084 # meter to feet
-FT2M = 1 / M2FT
-MI2M = 1609.34  # mile to meter
-M2MI = 1 / MI2M
-MI2KM = 1.60934  # mile to kilometer
-KM2MI = 1 / MI2KM
-SQMI2SQM = 2.59e6  # sq. mile to sq. meter
-SQM2SQMI = 1 / SQMI2SQM # sq. m. to sq. mi.
-MPS2MPH = 2.2369363 # meters per second to miles per hr
-MPH2MPS = 1 / MPS2MPH # miles per hr to meters per second
-
 #%% Custom settings for projects
 # ignore future warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
