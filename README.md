@@ -5,8 +5,6 @@ This project aims to streamline data processing operations for multiple projects
 <!-- - **[Framework in Figma](https://www.figma.com/file/LqnQC54G4w6CaDwsGZExXU/Mobil?node-id=0%3A1&t=kH061lIHBTjiACSy-1)** -->
 - **Mobiquity.pptx**: Main presentation to record our weekly/biweekly updates.
 - **[Notion document](https://emphasent.notion.site/Mobilkit-aa39edb3dd77487aac1768671a3a75ee)**: For documenting ideas and content details such as codebase description.
-<!-- # - [Data and outputs (Shagun) (Google Slides)](https://docs.google.com/presentation/d/1tITgL1qcZMS7B1LDvlpn9QK8V123QDNhyCbJwtbO1Ds/edit#slide=id.p)
-# - **`mobilkit`**: Source code of the current `mobilkit` library cloned from the [Github repository](https://github.com/mindearth/mobilkit).
 
 ## Installation
 The current version of `mobiquity` uses `pyspark` for which it requires Python 3 version 3.9 or earlier.
